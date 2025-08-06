@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://tu-dominio.com';
+  const baseUrl = 'https://trazo.digital';
   return [
     { url: baseUrl, lastModified: new Date() },
     { url: `${baseUrl}/portfolio`, lastModified: new Date() },
